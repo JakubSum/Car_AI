@@ -413,7 +413,7 @@ int main(int argc, char *argv[]) {
 	float temp;
     do {
         car1.calc();
-        //car1.print();  // Wyœwietl stan w ka¿dej iteracji
+        //car1.print();  // WyÂœwietl stan w kaÂ¿dej iteracji
 		cout<<car1.droga<<" "<<car1.predkosc<<endl;
 		cout<<car1.zmiana<<endl;
 
@@ -422,7 +422,7 @@ int main(int argc, char *argv[]) {
 		car1.predkosc = car1.predkosc + car1.zmiana;
 		
 
-    } while (car1.predkosc > 0 && car1.droga > 0);  // Poprawiono warunek pêtli
+    } while (car1.predkosc > 0 && car1.droga > 0);  // Poprawiono warunek pÃªtli
     cout<<"Do celu zostalo "<<temp<<endl;
 
     return 0;
